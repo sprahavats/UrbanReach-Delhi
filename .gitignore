@@ -5,3 +5,12 @@ __pycache__/
 .DS_Store
 .env
 *.pyc
+
+# Downloaded and processed datasets
+data/
+
+# Generated maps and figures
+outputs/
+
+# Local caches
+cache/
