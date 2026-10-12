@@ -16,7 +16,7 @@ longitude = float(reference.loc[0, "longitude"])
 m = folium.Map(
     location=[latitude, longitude],
     zoom_start=14,
-    tiles="CartoDB positron",
+    tiles="OpenStreetMap",
 )
 
 # Mark IIT Delhi reference point
